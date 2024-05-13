@@ -1,0 +1,401 @@
+@media screen and (min-width: 376px) {
+  body {
+    margin: 0px;
+    margin: 0px;
+  }
+
+  .header {
+    background-color: hsl(180, 29%, 50%);
+    background-image: url(./images/bg-header-desktop.svg);
+    min-height: 15vh;
+  }
+  .main {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(180, 52%, 96%);
+    padding-bottom: 20px;
+  }
+
+  /* filter at top */
+  .filter-box {
+    display: flex;
+    background-color: white;
+    width: 86%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 2px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .filter-button {
+    display: flex;
+    margin-left: 20px;
+  }
+
+  .filter-label {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: hsl(180, 29%, 50%);
+    background-color: hsl(180, 52%, 96%);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    margin-right: 0px;
+  }
+
+  .filter-cross {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: white;
+    background-color: hsl(180, 29%, 50%);
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+    cursor: pointer; 
+  }
+
+  .filter-cross:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+
+  .job-main {
+    background-color: white;
+    height: 100px;
+    width: 84%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+
+  .job-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+  }
+
+  .new {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 8px;
+    margin: 4px;
+    padding: 3px;
+    color: white;
+    background-color: hsl(180, 29%, 50%);
+  }
+
+  .featured {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 8px;
+    margin: 3px;
+    padding: 4px;
+    color: white;
+    background-color: hsl(180, 14%, 20%);
+  }
+  .company {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    color: hsl(180, 29%, 50%);
+  }
+
+  .job-name {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    cursor: pointer; 
+  }
+
+  .job-name:hover {
+    color: hsl(180, 29%, 50%);
+  }
+
+  .time-posted {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    color: hsl(180, 8%, 52%);
+  }
+
+  .job-duration {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    color: hsl(180, 8%, 52%);
+  }
+
+  .job-location {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    color: hsl(180, 8%, 52%);
+  }
+  /* job filter in job-main div */
+
+  .filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+  }
+
+  .job-button {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: hsl(180, 29%, 50%);
+    background-color: hsl(180, 52%, 96%);
+    border: none;
+    margin: 15px;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    cursor: pointer; 
+  }
+  .job-button:hover {
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(180, 52%, 96%);
+  }
+
+.delete-job-button {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+    cursor: pointer; 
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+@media screen and (max-width: 376px) {
+  body {
+    margin: 0px;
+    margin: 0px;
+  }
+  .header {
+    background-color: hsl(180, 29%, 50%);
+    background-image: url(./images/bg-header-mobile.svg);
+    background-size: cover; 
+    min-height: 15vh; 
+  }
+
+  .main {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(180, 52%, 96%);
+    padding-bottom: 20px;
+  }
+  .filter-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .filter-button {
+    display: flex;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+  }
+  .filter-label {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: hsl(180, 29%, 50%);
+    background-color: hsl(180, 52%, 96%);
+    border: none;
+    border-radius: 3px;
+    padding-top: 5px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    margin-right: 0px;
+  }
+
+  .filter-cross {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: small;
+    color: white;
+    background-color: hsl(180, 29%, 50%);
+    border: none;
+    border-radius: 3px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+    cursor: pointer; 
+  }
+
+  .filter-cross:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+
+  .job-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    background-color: white;
+    margin-left: 55px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+    margin-top: -25px;
+    margin-left: 3%;
+  }
+
+  .job-description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .job-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .job-name:hover {
+    color: hsl(180, 29%, 50%);
+  }
+
+  .company {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    color: hsl(180, 29%, 50%);
+  }
+
+  .new {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    border-radius: 8px;
+    margin: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 3px;
+    color: white;
+    background-color: hsl(180, 29%, 50%);
+  }
+
+  .featured {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    border-radius: 8px;
+    margin: px;
+    padding: 4px;
+    color: white;
+    background-color: hsl(180, 14%, 20%);
+  }
+
+  .job-name {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    cursor: pointer; 
+  }
+  .details {
+    margin-bottom: 10px;
+  }
+  .time-posted {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    color: hsl(180, 8%, 52%);
+  }
+
+  .job-duration {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    color: hsl(180, 8%, 52%);
+  }
+
+  .job-location {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    color: hwb(180 48% 44%);
+  }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .job-button {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: hsl(180, 29%, 50%);
+    background-color: hsl(180, 52%, 96%);
+    border: none;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 30px auto;
+    cursor: pointer; 
+  }
+  .job-button:hover {
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(180, 52%, 96%);
+  }
+  .delete-job-button {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+    cursor: pointer; 
+  }
+
+}
